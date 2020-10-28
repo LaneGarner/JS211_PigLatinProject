@@ -28,13 +28,8 @@ const pigLatin = (word) => {
     newStr = newWord.substring(vowel) + newWord.substring(0, vowel) + "ay";
     return newStr;
   }
-  
-  // else {
-
-  // return(restOfWord + firstLetter + 'ay')
-  // return(translateWord)
-  // }
 }
+
 
 // the first function called in the program to get an input from the user
 // to run the function use the command: node main.js
