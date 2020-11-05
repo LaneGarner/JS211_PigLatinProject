@@ -12,6 +12,8 @@ const rl = readline.createInterface({
 
 
 const pigLatin = (word) => {
+
+  
   let newWord = word.toLowerCase().trim();
   console.log(newWord)
   let vowels = ['a', 'e', 'i', 'o', 'u'];

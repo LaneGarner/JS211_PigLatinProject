@@ -1,6 +1,4 @@
-// const output = (str) => document.querySelector('#display-element').innerHTML = str + '<br>' + '<img src= "cutePig.jpg"></img>';
 const output = (str) => document.querySelector('#display-element').innerHTML = `${str} <br> ${randomPigs()}`;
-
 
 const pigPics = ['cutePig.jpg', 'cutePig2.jpg', 'cutePig3.jpg', 'cutePig4.jpg', 'cutePig5.jpg'];
 
@@ -12,8 +10,6 @@ const randomPigs = () => {
 }
 
 const pigLatin = () => {
-  // const output = (str) => document.querySelector('#display-element').innerHTML = `${str} <br> ${randomPigSelect}`;
-
     word = document.querySelector('#word-input').value;
     let newWord = word.toLowerCase().trim();
     let words = newWord.split(" ")
