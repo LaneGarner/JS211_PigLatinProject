@@ -33,6 +33,14 @@ button {
     color: pink;
     font-size: 30px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display-element img {
+    margin-top: 20px;
+    width: 300px;
 }
 
 input:focus, button:focus {
