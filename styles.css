@@ -1,3 +1,7 @@
+body {
+    margin: clamp(1em, 5vw, 5em);
+}
+
 body, form {
     display: flex;
     flex-direction: column;
@@ -14,7 +18,7 @@ h1 {
 input {
     padding: 10px;
     /* font-size: 20px; */
-    font-size: clamp(20px, 5vw, 40px);
+    font-size: clamp(20px, 5vw, 30px);
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -23,7 +27,7 @@ input {
 
 button {
     /* font-size: 20px; */
-    font-size: clamp(20px, 5vw, 40px);
+    font-size: clamp(20px, 5vw, 30px);
     border: none;
     border-radius: 30px;
     padding: 10px;
