@@ -13,7 +13,6 @@ const rl = readline.createInterface({
 
 const pigLatin = (word) => {
 
-  //turn sentence passed into array of words, loop through array of words with below code, 
   let newWord = word.toLowerCase().trim();
   console.log(newWord)
   let vowels = ['a', 'e', 'i', 'o', 'u'];

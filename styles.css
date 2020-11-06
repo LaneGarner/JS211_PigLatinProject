@@ -47,3 +47,16 @@ button {
 input:focus, button:focus {
     outline: none;
 }
+
+@media (max-width: 750px){
+    h1 { 
+        font-size: 65px;
+    }
+    input {
+        font-size: 2rem;
+    }
+    button {
+        font-size: 2rem;
+        margin-top: 25px;
+    }
+}
