@@ -8,12 +8,13 @@ body, form {
 
 h1 {
     color: pink;
-    font-size: 50px;
+    font-size: clamp(40px, 5vw, 70px);
 }
 
 input {
     padding: 10px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: clamp(20px, 5vw, 40px);
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -21,7 +22,8 @@ input {
 }
 
 button {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: clamp(20px, 5vw, 40px);
     border: none;
     border-radius: 30px;
     padding: 10px;
@@ -48,7 +50,7 @@ input:focus, button:focus {
     outline: none;
 }
 
-@media (max-width: 750px){
+/* @media (max-width: 750px){
     h1 { 
         font-size: 65px;
     }
@@ -59,4 +61,4 @@ input:focus, button:focus {
         font-size: 2rem;
         margin-top: 25px;
     }
-}
+} */
